@@ -12,7 +12,7 @@ namespace Pvolume
             double vlrRaio;
 
             if (!double.TryParse(txtRaio.Text, out vlrRaio))
-                MessageBox.Show("raio inv·lido");
+                MessageBox.Show("raio inv√°lido");
             else
                 if (vlrRaio <= 0)
                 MessageBox.Show("Raio deve ser maior que zero!");
@@ -42,7 +42,7 @@ namespace Pvolume
                 || (!double.TryParse(txtAltura.Text, out vlrAltura)))
 
             {
-                MessageBox.Show("valores inv·lidos");
+                MessageBox.Show("valores inv√°lidos");
                 txtRaio.Focus();
 
             }
